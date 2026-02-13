@@ -14,32 +14,17 @@ jobs:
 
     steps:
       - name: Checkout your repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           persist-credentials: false
 
       - name: Fetch .m3u/.m3u8 file list from source repo
         run: |
           curl -s https://api.github.com/repos/abusaeeidx/IPTV-Scraper-Zilla/contents \
+          curl -s https://api.github.com/repos/best-fan/iptv-sources/contents \
           | jq -r '.[] | select(.name | test("\\.(m3u8?)$")) | .download_url' > urls.txt
           echo "Found playlist URLs:"
           cat urls.txt
-
-      - name: Fetch .m3u/.m3u8 file list from source repo
-        run: |
-          curl -s https://api.github.com/repos/best-fan/iptv-sources/contents \
-          | jq -r '.[] | select(.name | test("\\.(m3u8?)$")) | .download_url' > urlss.txt
-          echo "Found playlist URLs:"
-          cat urlss.txt     
-
-       - name: Download .m3u/.m3u8 files to ROOT directory
-        run: |
-          while read -r url; do
-            [ -z "$url" ] && continue
-            filename=$(basename "$url")
-            echo "Downloading $filename"
-            curl -L -o "$filename" "$url"
-          done < urlss.txt    
 
       - name: Download .m3u/.m3u8 files to ROOT directory
         run: |
