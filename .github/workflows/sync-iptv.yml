@@ -32,6 +32,13 @@ jobs:
           echo "Found playlist URLs:"
           cat urls.txt    
 
+       - name: Fetch .m3u/.m3u8 file list from source repo
+        run: |
+          curl -s https://api.github.com/repos/mursor1985/LIVE/contents \
+          | jq -r '.[] | select(.name | test("\\.(m3u8?)$")) | .download_url' > urls.txt
+          echo "Found playlist URLs:"
+          cat urls.txt         
+
       - name: Download .m3u/.m3u8 files to ROOT directory
         run: |
           while read -r url; do
