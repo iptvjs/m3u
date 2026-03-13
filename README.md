@@ -67,9 +67,9 @@ Telegram 群：[欢迎加入](https://t.me/GPT_858)
 ## 📧 联系方式
 
 如有建议或合作，欢迎联系维护者  
-Telegram 群：[欢迎加入](https://t.me/GPT_858)
+Telegram 群：[欢迎加入](https://t.me/viptv_kefu_bot)
 
-Maintainer: [judy-gotv](mailto:mytv_super@outlook.com)
+Maintainer: [viptv](mailto:viptv@outlook.com)
 
 ---
 
