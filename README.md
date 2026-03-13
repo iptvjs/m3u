@@ -25,14 +25,14 @@ Telegram 群：[欢迎加入](https://t.me/GPT_858)
 
 你可以将以下链接 **直接复制粘贴到播放器** 实现在线订阅：
 
-- ofiii: [`https://raw.githubusercontent.com/judy-gotv/iptv/main/ofiii.m3u`](https://raw.githubusercontent.com/judy-gotv/iptv/main/ofiii.m3u)
-- 4gtv: [`https://raw.githubusercontent.com/judy-gotv/iptv/main/4gtv.m3u`](https://raw.githubusercontent.com/judy-gotv/iptv/main/4gtv.m3u)
-- litv: [`https://raw.githubusercontent.com/judy-gotv/iptv/main/litv.m3u`](https://raw.githubusercontent.com/judy-gotv/iptv/main/litv.m3u)
-- MytvSuper-Ts: [`https://raw.githubusercontent.com/judy-gotv/iptv/main/MytvSuper-Ts.m3u`](https://raw.githubusercontent.com/judy-gotv/iptv/main/MytvSuper-Ts.m3u)
-- MytvSuper: [`https://raw.githubusercontent.com/judy-gotv/iptv/main/MytvSuper.m3u`](https://raw.githubusercontent.com/judy-gotv/iptv/main/MytvSuper.m3u)
-- beesports: [`https://raw.githubusercontent.com/judy-gotv/iptv/main/beesports.m3u`](https://raw.githubusercontent.com/judy-gotv/iptv/main/beesports.m3u)
-- logo-smart: [`https://raw.githubusercontent.com/judy-gotv/iptv/main/logo-smart.m3u`](https://raw.githubusercontent.com/judy-gotv/iptv/main/logo-smart.m3u)
-- smart: [`https://raw.githubusercontent.com/judy-gotv/iptv/main/smart.m3u`](https://raw.githubusercontent.com/judy-gotv/iptv/main/smart.m3u)
+- ofiii: [`https://raw.githubusercontent.com/iptvjs/m3u/main/ofiii.m3u`](https://raw.githubusercontent.com/iptvjs/m3u/main/ofiii.m3u)
+- 4gtv: [`https://raw.githubusercontent.com/iptvjs/m3u/main/4gtv.m3u`](https://raw.githubusercontent.com/iptvjs/m3u/main/4gtv.m3u)
+- litv: [`https://raw.githubusercontent.com/iptvjs/m3u/main/litv.m3u`](https://raw.githubusercontent.com/iptvjs/m3u/main/litv.m3u)
+- MytvSuper-Ts: [`https://raw.githubusercontent.com/iptvjs/m3u/main/MytvSuper-Ts.m3u`](https://raw.githubusercontent.com/iptvjs/m3u/main/MytvSuper-Ts.m3u)
+- MytvSuper: [`https://raw.githubusercontent.com/iptvjs/m3u/main/MytvSuper.m3u`](https://raw.githubusercontent.com/iptvjs/m3u/main/MytvSuper.m3u)
+- beesports: [`https://raw.githubusercontent.com/iptvjs/m3u/main/beesports.m3u`](https://raw.githubusercontent.com/iptvjs/m3u/main/beesports.m3u)
+- logo-smart: [`https://raw.githubusercontent.com/iptvjs/m3u/main/logo-smart.m3u`](https://raw.githubusercontent.com/iptvjs/m3u/main/logo-smart.m3u)
+- smart: [`https://raw.githubusercontent.com/iptvjs/m3u/main/smart.m3u`](https://raw.githubusercontent.com/iptvjs/m3u/main/smart.m3u)
 - ofiii点播全站数据(自动同步) 直接打开网页播放，不是订阅: [`https://edgeone.passwdword.xyz/ofiii.php`](https://edgeone.passwdword.xyz/ofiii.php)
 
 
