@@ -14,9 +14,9 @@ jobs:
 
     steps:
       - name: Checkout your repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
-          persist-credentials: false
+          fetch-depth: 0
 
       - name: Fetch .m3u/.m3u8 file list from source repo
         run: |
